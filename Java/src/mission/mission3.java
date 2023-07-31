@@ -11,6 +11,7 @@ public class mission3 {
      */
 
     public static void main(String[] args) {
+        final int Senior_Age_Standard = 65;
 
         int Alice = 70;
         int Kim =65;
@@ -21,9 +22,9 @@ public class mission3 {
         String KimCountry ="한국";
         String YooCountry ="한국";
 
-        boolean result = (AliceCountry=="한국") && (Alice >= 65);
-        boolean result2 = (KimCountry =="한국") && (Kim >= 65);
-        boolean result3 = (YooCountry =="한국") && (Yoo >= 65);
+        boolean result = (AliceCountry=="한국") && (Alice >= Senior_Age_Standard);
+        boolean result2 = (KimCountry =="한국") && (Kim >= Senior_Age_Standard);
+        boolean result3 = (YooCountry =="한국") && (Yoo >= Senior_Age_Standard);
 
         System.out.println(result);
         System.out.println(result2);
