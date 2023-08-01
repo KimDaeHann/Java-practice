@@ -23,7 +23,7 @@ public class ParkingLotMission {
             parkingTime = parkingTime - 1;
 
         }
-        String result = String.format("고객님 %d를 사용했기 때문에 ,%d 시간 결제 하셔야 합니다.", payMoney, parkingTime);
+        String result = String.format("고객님 %d원을 사용했기 때문에 ,%d 시간 결제 하셔야 합니다.", payMoney, parkingTime);
         System.out.println(result);
     }
 }
