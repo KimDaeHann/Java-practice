@@ -4,20 +4,20 @@ import java.util.Arrays;
 
 public class ArrayCopy {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        int a= 5;
+        int a = 5;
         int b = a;
 
-        b +=5;
+        b += 5;
 
         System.out.println(a);
         System.out.println(b);
 
-        int[] arr1 = {1,2,3,4};
+        int[] arr1 = {1, 2, 3, 4};
         int[] arr2 = new int[arr1.length];
 
-        for(int i=0; i<arr1.length ; i++){
+        for (int i = 0; i < arr1.length; i++) {
             arr2[i] = arr1[i];
         }
         arr1[0] = 10;

@@ -3,7 +3,7 @@ package exercise.chap_21;
 import java.util.Arrays;
 
 public class TwoDimensionAdd {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //
 
         int[][] arr1 = {
@@ -19,8 +19,8 @@ public class TwoDimensionAdd {
 
         int[][] resultArr = new int[3][4];
 
-        for(int row = 0 ; row<3 ; row++){
-            for(int col=0; col<4 ; col++){
+        for (int row = 0; row < 3; row++) {
+            for (int col = 0; col < 4; col++) {
                 resultArr[row][col] = arr1[row][col] + arr2[row][col];
 
             }

@@ -12,8 +12,8 @@ public class Teacher {
     String gender;
 
     // 행위
-    void teach(Student student,String subjectName){
+    void teach(Student student, String subjectName) {
         String studentName = student.name;
-        System.out.printf("선생 %s 학생에게 %s 과목을 가르칩니다.",studentName,subjectName);
+        System.out.printf("선생 %s 학생에게 %s 과목을 가르칩니다.", studentName, subjectName);
     }
 }

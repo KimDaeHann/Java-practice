@@ -3,23 +3,24 @@ package exercise.chap_27.pacakgeOne;
 public class ClassA {
     //Publish
     public String publicStr;
-
-    private String privateStr;
     //default 접근제어자를 정의하지 않으면 default
     String defaultStr;
+    private String privateStr;
 
+    public void methodPublic() {
+    }
 
-    public void methodPublic(){}
+    private void methodPrivate() {
+    }
 
-    private void methodPrivate(){}
+    void methodProtected() {
+    }
 
-    void methodProtected(){}
-
-    void testPrivate(){
-        String str =privateStr;
+    void testPrivate() {
+        String str = privateStr;
         methodPrivate();
 
 
-        }
     }
+}
 

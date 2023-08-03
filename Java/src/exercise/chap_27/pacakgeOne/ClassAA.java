@@ -14,5 +14,5 @@ public class ClassAA {
 //    void testPrivate(ClassA classA) {
 //        String str = classA.privateStr;
 //        classA.methodPrivate();
-    }
+}
 

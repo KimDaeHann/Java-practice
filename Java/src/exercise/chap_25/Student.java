@@ -13,8 +13,8 @@ public class Student {
     String gender;
 
     //행위
-    void study(Teacher teacher , String subjectName){
+    void study(Teacher teacher, String subjectName) {
         String teacherName = teacher.name;
-        System.out.printf("학생: 저는 %s 선생님에게 %s 과목을 배웁니다.",teacherName,subjectName);
+        System.out.printf("학생: 저는 %s 선생님에게 %s 과목을 배웁니다.", teacherName, subjectName);
     }
 }

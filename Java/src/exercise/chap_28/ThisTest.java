@@ -2,12 +2,12 @@ package exercise.chap_28;
 
 public class ThisTest {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //
 
         Person person1 = new Person("노진구");
-        Person person2 = new Person("퉁퉁이","male");
-        Person person3 = new Person("이슬이","female",30);
+        Person person2 = new Person("퉁퉁이", "male");
+        Person person3 = new Person("이슬이", "female", 30);
 
         person1.showMySelf();
         person2.showMySelf();

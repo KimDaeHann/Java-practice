@@ -11,24 +11,25 @@ public class Coffee {
     private boolean isWrappedUp; // 포장됨 여부
 
 
-    //행위  기본적으로 isWrappedUp이 false 로 되어있는데 beWrappedUp 함수를 쓰게 되면
-    //포장이 되어지는것이 확인이 됨
-    void beWrappedUp(){
-        this.isWrappedUp=true;
-    }
-
-    public boolean isWrappedUp() {
-        return isWrappedUp;
-    }
-
     //생성자
-    Coffee(String coffeeName , long waterQuantity, long coffeeBeanQuantity){
+    Coffee(String coffeeName, long waterQuantity, long coffeeBeanQuantity) {
         this.coffeeName = coffeeName;
         this.waterQuantity = waterQuantity;
         this.coffeeBeanQuantity = coffeeBeanQuantity;
         isWrappedUp = false; //기본적으로 포장 되어 나오지 않기 때문
 
     }
+
+    //행위  기본적으로 isWrappedUp이 false 로 되어있는데 beWrappedUp 함수를 쓰게 되면
+    //포장이 되어지는것이 확인이 됨
+    void beWrappedUp() {
+        this.isWrappedUp = true;
+    }
+
+    public boolean isWrappedUp() {
+        return isWrappedUp;
+    }
+
     //커피 이름을 가져 와야 하기때문에 Getter 생성
     public String getCoffeeName() {
         return coffeeName;
