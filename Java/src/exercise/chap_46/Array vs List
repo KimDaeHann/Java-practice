@@ -1,0 +1,19 @@
+Array
+연속적인 메모리에서 같은 종류의 아이템들을 저장할 수 있는 "자료 구조"(Data structure)
+[] : 인덱스를 활용 가능 얼마나 길든 적든 몇번째 아이템을 접근 할때 항상 같은 시간이 걸림
+Array 자료구조 : 명확함  What에 대해서도 명확 How에 대해서도 명확
+
+List
+순서를 가지며 추가 삭제 탐색이 가능한 ADT (Abstract Data Type)
+ADT:구조의 속성과 행위를 설명
+
+List Operation add(추가) , remove(제거) , get(*th) , contains(obj)
+
+List 자료구조: 추상적
+What에 대해서는 알려주지만 How를 알려주진 않음 =
+내부적으로 어떻게 구현이 되는지 설명을 하고 있지 않음 이런 것들을 통상 ADT 이라 함
+
+List를 어떻게 구현 ?
+ADT를 구현한 것 -> "자료구조"
+ArrayList @ JAVA
+LinkedList @ JAVA
