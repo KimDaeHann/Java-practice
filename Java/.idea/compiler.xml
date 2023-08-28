@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../dongle/backend/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.5.3.Final/dce418bedafd71ff8dd2cef15006c0fee788b073/mapstruct-processor-1.5.3.Final.jar" />
+        </processorPath>
+        <module name="Mygradle.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Mygradle" target="11" />
+      <module name="MyGradle" target="11" />
+      <module name="Mygradle.main" target="11" />
+      <module name="MyGradle.main" target="11" />
+      <module name="MyGradle.test" target="11" />
+      <module name="Mygradle.test" target="11" />
+      <module name="MyMaven" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
